@@ -1,6 +1,6 @@
 {
-  "name": "@edx/react-unit-test-utils",
-  "version": "1.0.0-semantically-released",
+  "name": "@edunext/react-unit-test-utils",
+  "version": "1.7.0-alpha.1",
   "description": "React toolkit for writing and testing react components",
   "main": "dist/index.js",
   "release": {
@@ -22,9 +22,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/react-unit-test-utils.git"
+    "url": "git+https://github.com/edunext/react-unit-test-utils.git"
   },
-  "homepage": "https://github.com/openedx/react-unit-test-utils#README",
+  "homepage": "https://github.com/edunext/react-unit-test-utils#README",
   "browserslist": [
     "extends @edx/browserslist-config"
   ],
@@ -56,7 +56,7 @@
     "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
-    "@edx/frontend-build": ">=8.1.0",
+    "@edx/frontend-build": ">=8.1.0 || 13.0.1-alpha.1",
     "react": "^16.9.0 || ^17.0.0"
   }
 }
