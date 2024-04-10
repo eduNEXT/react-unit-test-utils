@@ -30,8 +30,8 @@
   ],
   "dependencies": {
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-platform": "4.6.0",
-    "@edx/paragon": "^20.44.0",
+    "@edx/frontend-platform": "npm:@edunext/frontend-platform@5.5.4-alpha.4",
+    "@edx/paragon": "npm:@openedx/paragon@22.0.0-alpha.25",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/dom": "^9.3.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-build": "12.8.38",
+    "@edx/frontend-build": "github:edunext/frontend-build#ednx-release/css-variables-13.0.1",
     "axios": "^1.4.0",
     "es-check": "^2.3.0",
     "husky": "2.7.0",
