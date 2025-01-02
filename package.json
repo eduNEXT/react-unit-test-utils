@@ -61,7 +61,7 @@
     "ts-jest": "^29.1.2"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "github:edunext/frontend-platform#edunext/css-variables-8.1.2",
+    "@edx/frontend-platform": "8.1.2-alpha.1 || ^7.0.0 || ^8.0.0",
     "@openedx/frontend-build": "^14.0.0",
     "@openedx/paragon": "23.0.0-alpha.7 || ^21.5.7 || ^22.0.0",
     "react": "^16.9.0 || ^17.0.0"
